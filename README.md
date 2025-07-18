@@ -1,12 +1,48 @@
-# React + Vite
+# 🤖 AI-Powered Automated Job Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent, end-to-end automated job platform that connects job seekers and employers using advanced AI features. This platform streamlines job searching, application tracking, and candidate hiring using smart automation and machine learning technologies.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📄 **Auto Resume Screening**  
+  Automatically analyzes and ranks resumes based on job requirements.
 
-## Expanding the ESLint configuration
+- 🤝 **Smart Interview Scheduling**  
+  Schedule and coordinate interviews using AI with availability detection.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧠 **AI Auto Summary**  
+  Generate a professional summary based on interview and send it to the owner then let owner accpet it or reject.
+
+## 💼 Who Is It For?
+
+- **Job Seekers**: Get matched with ideal jobs, create AI-enhanced resumes, and apply automatically.
+- **Recruiters**: Instantly find top candidates, screen them with AI, and manage applications at scale.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js
+- **Backend**: FastAPI  
+- **Database**: PostgreSQL  
+- **AI Integration**: OpenAI SDK  
+- **Authentication**: Clerk  
+
+## 🔒 Security & Privacy
+
+- End-to-end encryption for sensitive user data  
+- GDPR & CCPA compliant  
+- Role-based access control
+
+## 📦 Getting Started (Development)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-job-platform.git
+
+# Navigate to the project
+cd ai-job-platform
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
